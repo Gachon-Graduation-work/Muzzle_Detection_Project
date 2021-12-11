@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/send_button"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="200dp"
+            android:src="@drawable/album"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="181dp" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/send_button2"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="200dp"
+            android:src="@drawable/camera"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="302dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9C3939"
+        android:backgroundTint="@color/black" />
+
+
+</LinearLayout>
+
